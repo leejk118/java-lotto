@@ -48,7 +48,7 @@ public class LottoGame {
         return numbers;
     }
     private int checkOverlap(int[]num, int index){
-        for (int i = 0; i < index - 1; ++i){
+        for (int i = 0; i < index; ++i){
             if (num[i] == num[index]){
                 index -= 2;
                 break;
